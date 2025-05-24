@@ -1,5 +1,8 @@
 # Shell Basics
-This folder contains beginner-level shell scripts that demonstrate basic Bash operations.
+Prints or shows you the directory you're standing in.
 
-# 1-listit
-Displays the contents of the current directory using the `ls` command.
+# ls
+Displays the contents of the current directory.
+
+# cd ~
+Changes the current working directory to the user's home directory. 
