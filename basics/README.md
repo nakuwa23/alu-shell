@@ -12,3 +12,6 @@ Displays the contents of the current directory in long format.
 
 # ls -la
 Display current directory contents, including hidden files (starting with .)
+
+# ls -lan
+Displays the contents of the current directory in long format, includes hidden files, and shows numeric user and group IDs.
