@@ -15,3 +15,6 @@ Display current directory contents, including hidden files (starting with .)
 
 # ls -lan
 Displays the contents of the current directory in long format, includes hidden files, and shows numeric user and group IDs.
+
+# mkdir /tmp/my_first_directory
+Creates a directory named my_first_directory in the /tmp/ directory.
