@@ -1,2 +1,5 @@
 #!/bin/bash
-sudo chown vincent hello
+if find hello -user guillaume | grep -q '^hello$'
+then chown vincent hello
+fi
+
