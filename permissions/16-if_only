@@ -1,5 +1,2 @@
 #!/bin/bash
-if find hello -user guillaume | grep -q '^hello$'
-then chown vincent hello
-fi
-
+chown --from=guillaume vincent hello
