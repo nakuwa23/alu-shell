@@ -1,2 +1,2 @@
 #!/bin/bash
-{ cat /etc/passwd echo -e "\n--- /etc/hosts ---" cat /etc/hosts; }
+bash -c $'cat /etc/passwd\necho -e "\\n--- /etc/hosts ---\\n"\ncat /etc/hosts'
