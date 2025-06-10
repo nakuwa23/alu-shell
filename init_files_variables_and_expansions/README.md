@@ -45,3 +45,6 @@ A script that Write a script that converts a number from base 10 to base 16.
 
 #echo "$1" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 A script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+
+#awk 'NR % 2 == 1'
+A script that prints other line from the input, starting with the first line.
