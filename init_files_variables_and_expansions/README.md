@@ -9,3 +9,6 @@ A script that adds /action to the PATH. /action should be the last directory the
 
 #export PATH="$PATH:/action"
 A script that counts the number of directories in the PATH.
+
+#printenv
+A script that lists environment variables.
