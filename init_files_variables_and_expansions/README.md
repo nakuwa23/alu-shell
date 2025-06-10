@@ -33,3 +33,9 @@ A script that displays the result of BREATH to the power LOVE
 
 #echo "$((2#$BINARY))"
 A script that converts a number from base 2 to base 10.
+
+#printf '%s\n' {a..z}{a..z} | grep -v '^oo$'
+A script that script that prints all possible combinations of two letters, except oo.
+
+#printf "%.2f\n" "$NUM"
+A script that prints a number with two decimal places, followed by a new line.
