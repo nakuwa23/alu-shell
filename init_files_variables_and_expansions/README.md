@@ -12,3 +12,6 @@ A script that counts the number of directories in the PATH.
 
 #printenv
 A script that lists environment variables.
+
+#( set; declare -f 
+A script that lists all local variables and environment variables, and functions.
