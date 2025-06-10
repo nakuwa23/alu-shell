@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( $(echo $WATER | tr 'water' '01234') + $(echo $STIR | tr 'stir' '0123') )) | xxd -r -p | od -An -tx1 | tr '01234567' 'bestchol' | tr -d ' \n'
+echo $(echo "obase=8" | cat - <(echo "ibase=5" && echo "$WATER" | tr 'water' '01234' | xargs) <(echo "ibase=4" && echo "$STIR" | tr 'stir' '0123' | xargs) | bc) | tr '01234567' 'bestchol'
