@@ -39,3 +39,9 @@ A script that script that prints all possible combinations of two letters, excep
 
 #printf "%.2f\n" "$NUM"
 A script that prints a number with two decimal places, followed by a new line.
+
+#printf "%X\n" "$DECIMAL"
+A script that Write a script that converts a number from base 10 to base 16.
+
+#echo "$1" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+A script that encodes and decodes text using the rot13 encryption. Assume ASCII.
